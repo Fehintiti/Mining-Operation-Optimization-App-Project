@@ -58,12 +58,12 @@ def preprocess_data(df, scaler, label_encoders, task, trained_columns):
 # Main function for the app
 def main():
     # App title
-    st.title("Rio Tinto: Maintenance & Fuel Efficiency Prediction")
+    st.title("Mining Company's: Maintenance & Fuel Efficiency Prediction")
 
     # **Project Overview**
     st.markdown("""
     ### Overview:
-    This app is developed to support **Rio Tinto’s sustainability** goals by providing predictive insights on **equipment maintenance** and **fuel efficiency**. 
+    This app is developed to support **Mining Company's sustainability** goals by providing predictive insights on **equipment maintenance** and **fuel efficiency**. 
     Mining operations involve heavy machinery that requires careful monitoring to avoid breakdowns and minimize downtime. At the same time, fuel consumption is a significant part of operational costs and environmental impact.
 
     - **Maintenance Prediction** allows operational teams to predict when equipment might need maintenance based on performance and environmental factors, reducing unscheduled downtime and optimizing maintenance schedules.
